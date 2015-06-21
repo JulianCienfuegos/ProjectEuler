@@ -1,0 +1,15 @@
+[1231, 20, 100]
+\in the ones = 1231
+carry from previous = 0
+ones = 1
+final ones = 1
+
+in the tens = 20
+carry from previous = 123
+tens = 143
+final tens = 3
+
+in the hundred = 100
+carry from previous = 14
+hundreds = 114
+final_hundreds = 4

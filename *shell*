@@ -1,0 +1,196 @@
+python Euler15.py 
+[[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]
+ [ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+   1.  1.]]
+(py3k)melvyn@melvyn-ThinkPad-T410:~/ProjectEuler$ python Euler15.py 
+[[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]]
+(py3k)melvyn@melvyn-ThinkPad-T410:~/ProjectEuler$ python
+Python 3.3.5 |Anaconda 2.2.0 (64-bit)| (default, Sep  2 2014, 13:55:40) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import numpy as np
+>>> l = np.ones((10))
+>>> l
+array([ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.])
+>>> x = 0
+>>> if l[x - 1]:
+...    print(True)
+... 
+True
+>>> l[x-1]
+1.0
+>>> l[-1]
+1.0
+>>> l[-100]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: index -100 is out of bounds for axis 0 with size 10
+>>> l[-1] = 0
+>>> l
+array([ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  0.])
+>>> l = [1, 1, 1, 1]
+>>> l[-1]
+1
+>>> l[-4]
+1
+>>> l[-41]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> l = [0, 0, 0]
+>>> if l[0]:
+...   print('Yes')
+... 
+>>> 
+(py3k)melvyn@melvyn-ThinkPad-T410:~/ProjectEuler$ python Euler15.py
+0.0
+(py3k)melvyn@melvyn-ThinkPad-T410:~/ProjectEuler$ python Euler15.py
+  C-c C-cTraceback (most recent call last):
+  File "Euler15.py", line 23, in <module>
+    if(j + 1) < n:
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 22, in visit
+    visit(lattice, i+1, j)
+  File "Euler15.py", line 22, in visit
+    visit(lattice, i+1, j)
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 22, in visit
+    visit(lattice, i+1, j)
+  File "Euler15.py", line 22, in visit
+    visit(lattice, i+1, j)
+  File "Euler15.py", line 22, in visit
+    visit(lattice, i+1, j)
+  File "Euler15.py", line 22, in visit
+    visit(lattice, i+1, j)
+  File "Euler15.py", line 22, in visit
+    visit(lattice, i+1, j)
+  File "Euler15.py", line 22, in visit
+    visit(lattice, i+1, j)
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 22, in visit
+    visit(lattice, i+1, j)
+  File "Euler15.py", line 22, in visit
+    visit(lattice, i+1, j)
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 22, in visit
+    visit(lattice, i+1, j)
+  File "Euler15.py", line 22, in visit
+    visit(lattice, i+1, j)
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 20, in visit
+    lattice[i][j] += 1
+  File "Euler15.py", line 22, in visit
+    visit(lattice, i+1, j)
+  File "Euler15.py", line 18, in visit
+    """When we visit a vertex, increment the vertex counter
+KeyboardInterrupt
+(py3k)melvyn@melvyn-ThinkPad-T410:~/ProjectEuler$ python Euler15.py
+6.0
+(py3k)melvyn@melvyn-ThinkPad-T410:~/ProjectEuler$ python Euler15.py

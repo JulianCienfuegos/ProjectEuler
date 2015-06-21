@@ -1,0 +1,4 @@
+import numpy as np
+
+lattice = np.ones(20, 20)
+print(lattice)

@@ -1,0 +1,48 @@
+from scipy.optimize import fsolve
+def bisection(f, a, b, tol, k):
+    """This function finds a zero of a nonlinear function f
+    in a less than elegant way. signof(f(b)) = -signof(f(a))
+    """
+    c = (a + b)/2
+    if abs(f(c, k)) < tol:
+        return c
+    elif f(c, k)*f(b, k) > 0:
+        return bisection(f, a, c, tol, k)
+    else:
+        return bisection(f, c, b, tol, k)
+
+def IsPartition(f, t, tol):
+    if abs(round(4**t) - 4**t) < tol and abs(round(2**t) - 2**t) < tol:
+        return True
+    else:
+        return False
+def IsPerfect(t, tol):
+    if abs(round(t) - t) < tol:
+       return True
+    else:
+       return False
+
+f = lambda t, k: 4**t - 2**t - k
+P_of_m = 1
+m = 0
+a = 0
+b = 100
+tol = 1e-2
+k = 1
+num = 0
+while P_of_m > 1/12345:
+#for i in range(10):
+    F = lambda x: f(x, k)
+    T = fsolve(F,100)
+    t = T.tolist()[0]
+#    print(type(t))
+    if IsPartition(f, t, tol) and IsPerfect(t, tol):
+        num += 1
+        m += 1
+        P_of_m = num / m
+    elif IsPartition(f, t, tol):
+       m+=1
+       P_of_m = num/m
+    k+=1
+#    print(k, t, P_of_m)
+print(k, P_of_m)
