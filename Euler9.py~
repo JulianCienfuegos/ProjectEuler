@@ -1,0 +1,12 @@
+"""Find the pythagoean triplet for which a + b + c = 1000
+A pythagorean triplet is a set of numbers, a<b<c, such that
+a^2 + b^2 = c^2
+"""
+
+import numpy as np
+
+a = 3*np.ones(20)
+b = 4*np.ones(150)
+
+a = np.delete(a, np.arange(2, a.size, 3))
+print a

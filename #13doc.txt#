@@ -1,0 +1,29 @@
+[1231, 20, 100]
+col = 1231
+carried = 0
+col + carried = 1231 = [to carry, curr] = [123, 1]
+final_col = 1 = curr
+
+col = 20
+carried = 123
+col + carried = 143 = [to carry, curr] = [14, 3]
+final_col = 3
+
+in the hundred = 100
+carry from previous = 14
+hundreds = 114 = [carry to next, current digit] = [11, 4]
+final_hundreds = 4
+
+in the thousand = none
+carry from previous = 11
+thousands = 11
+final thousands = 1
+
+in the ten thousands = none
+carry from previous = 1
+ten thousands = 1
+final ten thousands = 1
+
+in the hundred thousands = none
+carry from previous = none
+DONE

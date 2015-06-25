@@ -1,0 +1,9 @@
+upper = 10
+numbers = range(upper)
+numbers[1] = 0 # 1 isn't prime
+sum = 0 
+for n in range(upper):
+    if (numbers[n]!=0):
+        sum += n
+        numbers[1::n] = [0]*len(numbers[1::n])
+        
