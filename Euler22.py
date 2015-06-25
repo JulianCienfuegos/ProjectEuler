@@ -6,6 +6,7 @@ When the list is all sorted, compute the values for each name, multiply by the p
 
 THIS PROBLEM WOULD HAVE BEEN MORE INTERESTING IF THERE HAD BEEN 46GB of names, then we would have had
 to have been clever. As it is, I use just the basic Python routines and get an instant solution.
+Pushing this to github.
 """
 
 f = open('names.txt', 'r')
